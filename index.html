@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>PortoFolio | Fadli Rais</title>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Fadli Rais</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#home">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- Jumbroton -->
+    <section class="jumbotron text-center">
+      <img src="img/Fadliii.jpg" alt="Fadli Rais" width="100" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Fadli Rais</h1>
+      <p class="lead">Editing | Progamming beginners | Typography</p>
+    </section>
+    <!-- end jumbroton -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+            <div class="col-md-4">
+                <p>Hello, I'm Fadli Rais, I'm a student at SMKN 41 Jakarta. Born in 2005.
+                    I have many aspirations for the world of technology later. One of them I want to have broad skills in the world of programmers.
+                    see below are some of the types of projects or galleries I've worked on.</p>
+            </div>
+        </div>  
+    </section>
+    <!-- end about -->
+
+    <!-- Projects -->
+    <section id="gallery">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>My Gallery</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/projects/1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                          <p class="card-text">still trying to understand it..</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/projects/2.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                          <p class="card-text">Editing videos in spare time and edit video projects froom school</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/projects/3.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                          <p class="card-text">Make Typography with the theme of the month of ramadhan</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end projects -->
+
+    <!-- contact -->
+    <section id="contact">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center mb-3">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                          <label for="name" class="form-label">Nama Lengkap</label>
+                          <input type="text" class="form-control" id="name" aria-describedby="name">
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="email" aria-describedby="email" />
+                        </div>
+                        <div class="mb-3">
+                          <label for="no telpon" class="form-label">No Telpon</label>
+                          <input type="email" class="form-control" id="no telpon" aria-describedby="email" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="pesan" rows="3"></textarea>
+                          </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center">
+        <p>Created By <a href="https://www.instagram.com/dliirais_/" class="text-white fw-bold">Fadli Rais</a></p>
+    </footer>
+    <!-- end Footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
